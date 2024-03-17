@@ -1,6 +1,8 @@
-*, *:before, *:after {
-	margin: 0px; 
-	box-sizing: border-box;
+*,
+*:before,
+*:after {
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 .text {
@@ -32,11 +34,11 @@
   }
   100% {
     background-position: 0% 50%;
-  } 
+  }
 }
 
-.commingsoon {
-  font-family: Montserrat-Black;
+.header {
+  font-family: FiraCode-Regular;
   font-size: 50px;
   color: #fff;
   line-height: 1.2;
@@ -46,7 +48,7 @@
 }
 
 .slogan {
-  font-family: Montserrat-Light;
+  font-family: FiraCode-Light;
   font-size: 30px;
   color: #fff;
   line-height: 1.2;
@@ -56,28 +58,38 @@
 
 .footer {
   text-align: center;
-  font-family: Montserrat-Regular;
+  font-family: FiraCode-Regular;
   font-size: 12px;
   color: #cccccc;
   line-height: 1.4;
 }
 
 @font-face {
-  font-family: Montserrat-Regular;
-  src: url('../fonts/Montserrat/Montserrat-Regular.ttf'); 
+  font-family: FiraCode-Bold;
+  src: url("../fonts/FiraCode-Bold");
 }
 
 @font-face {
-  font-family: Montserrat-Light;
-  src: url('../fonts/Montserrat/Montserrat-Light.ttf'); 
+  font-family: FiraCode-Light;
+  src: url("../fonts/FiraCode-Light");
 }
 
 @font-face {
-  font-family: Montserrat-Black;
-  src: url('../fonts/Montserrat/Montserrat-Black.ttf'); 
+  font-family: FiraCode-Medium;
+  src: url("../fonts/FiraCode-Medium");
 }
 
 @font-face {
-  font-family: Montserrat-Bold;
-  src: url('../fonts/Montserrat/Montserrat-Bold.ttf'); 
+  font-family: FiraCode-Regular;
+  src: url("../fonts/FiraCode-Regular");
+}
+
+@font-face {
+  font-family: FiraCode-Retina;
+  src: url("../fonts/FiraCode-Retina");
+}
+
+@font-face {
+  font-family: FiraCode-SemiBold;
+  src: url("../fonts/FiraCode-SemiBold");
 }
